@@ -6,15 +6,19 @@ int x, y;
 int *px, *py;
 
 int f() {
+
     // S is the sum of the values of x and y
     int s = *px + *py;
+
     // Print the value of S
     cout << s << endl;
+
     // Return the value of S
     return s;
 }
 
 int main() {
+
     // Assign value 2 to x and y
     x = y = 2;
     // This is equivalent to:
