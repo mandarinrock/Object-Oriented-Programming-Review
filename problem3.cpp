@@ -5,15 +5,16 @@ using namespace std;
 int x, y;
 int *px, *py;
 
+// Function f takes no arguments and returns an integer
 int f() {
 
-    // S is the sum of the values of x and y
+    // s is the sum of the values of x and y
     int s = *px + *py;
 
-    // Print the value of S
+    // Print the value of s
     cout << s << endl;
 
-    // Return the value of S
+    // Return the value of s
     return s;
 }
 

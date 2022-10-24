@@ -5,16 +5,17 @@ using namespace std;
 int x, y;
 int *px, *py;
 
+// Function f takes no arguments and returns an integer
 int f() {
 
-    // S is the sum of the values of x and y
-    // Static means that after the first time this function is called, the value of S will not change
+    // s is the sum of the values of x and y
+    // Static means that after the first time this function is called, the value of s will not change
     static int s = *px + *py;
 
-    // Print the value of S
+    // Print the value of s
     cout << s << endl;
 
-    // Return the value of S
+    // Return the value of s
     return s;
 }
 
